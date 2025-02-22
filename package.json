@@ -1,0 +1,15 @@
+{
+  "name": "cf-proxy-checker",
+  "version": "1.0.0",
+  "description": "指定したURLが Cloudflare のプロキシを通っているかを簡単に確認できる Node.js 製のCLIツール",
+  "main": "index.js",
+  "bin": {
+    "start": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
